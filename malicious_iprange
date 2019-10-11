@@ -1,0 +1,21 @@
+79.110.16.0/20,Malicious,suspicious ASN,Atomohost Llc
+# ref https://myip.ms/
+# A suspicious ASN IP ranges. e.g. used by mufg fraud, etc.
+103.217.224.0/22,Malicious,suspicious ASN,Vanta Telecommunications Limited
+45.249.60.0/22,Malicious,suspicious ASN,Vanta Telecommunications Limited
+118.193.128.0/17,Malicious,suspicious ASN,Shanghai Anchang Network Technology Stock
+118.184.0.0/18,Malicious,suspicious ASN,Shanghai Anchang Network Technology Stock
+118.184.64.0/18,Malicious,suspicious ASN,Shanghai Anchang Network Technology Stock
+80.252.22.96/27,Malicious,suspicious ASN,Regtime Ltd Vds Network
+195.201.0.0/17,Malicious,suspicious ASN,Awanti Noc
+195.201.128.0/18,Malicious,suspicious ASN,Awanti Noc
+203.70.0.0/16,Malicious,suspicious ASN,Digital United Inc
+123.204.0.0/15,Malicious,suspicious ASN,Digital United Inc
+210.244.0.0/17,Malicious,suspicious ASN,Digital United Inc
+203.73.0.0/16,Malicious,suspicious ASN,Digital United Inc
+210.68.0.0/16,Malicious,suspicious ASN,Digital United Inc
+210.64.0.0/16,Malicious,suspicious ASN,Digital United Inc
+210.243.128.0/17,Malicious,suspicious ASN,Digital United Inc
+203.67.0.0/16,Malicious,suspicious ASN,Digital United Inc
+61.59.0.0/16,Malicious,suspicious ASN,Digital United Inc
+211.74.128.0/17,Malicious,suspicious ASN,Digital United Inc
