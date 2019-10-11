@@ -1,6 +1,7 @@
-79.110.16.0/20,Malicious,suspicious ASN,Atomohost Llc
 # ref https://myip.ms/
 # A suspicious ASN IP ranges. e.g. used by mufg fraud, etc.
+# add on the threat.category = "malicious"
+79.110.16.0/20,Malicious,suspicious ASN,Atomohost Llc
 103.217.224.0/22,Malicious,suspicious ASN,Vanta Telecommunications Limited
 45.249.60.0/22,Malicious,suspicious ASN,Vanta Telecommunications Limited
 118.193.128.0/17,Malicious,suspicious ASN,Shanghai Anchang Network Technology Stock
