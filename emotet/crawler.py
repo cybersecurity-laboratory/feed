@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup as bs
 import re
 from github import Github
 import base64
+import sys
 
 
 target = [
@@ -68,8 +69,20 @@ def get_origin():
 
 if __name__ == "__main__":
 
-    # get emotet IoC list
     time, href, origin = get_origin()
+    filename = href.split("/")[-1].split(".")[0].split("_")
+    ioc_domain = "emotet/%s-domain_%s" % (filename[0], filename[1])
+    ioc_ip = "emotet/%s-ip_%s" % (filename[0], filename[1])
+
+    # check exist file
+    try:
+        get_from_github(ioc_domain)
+        get_from_github(ioc_ip)
+        sys.exit()
+    except Exception:
+        pass
+
+    # get emotet IoC list
     soup = bs(origin, "html.parser")
     code_list = soup.findAll("div", class_="highlighter-rouge")
     id_list = [tag.attrs["id"] for tag in soup.findAll("h4")]
@@ -82,12 +95,8 @@ if __name__ == "__main__":
     domain = [token for token in result if not isIP(token)]
 
     # create new list
-    try:
-        filename = href.split("/")[-1].split(".")[0].split("_")
-        repo.create_file("emotet/" + filename[0] + "-domain_" + filename[1], time, "\n".join(domain))
-        repo.create_file("emotet/" + filename[0] + "-ip_" + filename[1], time, "\n".join(ip))
-    except:
-        pass
+    repo.create_file(ioc_domain, time, "\n".join(domain))
+    repo.create_file(ioc_ip, time, "\n".join(ip))
 
     # update latest list
     update_to_github("emotet/latest_domain", "\n".join(domain), time)
@@ -104,4 +113,3 @@ if __name__ == "__main__":
         ip.remove("")
     update_to_github("emotet/composit_domain", "\n".join(domain), time)
     update_to_github("emotet/composit_ip", "\n".join(ip), time)
-    
