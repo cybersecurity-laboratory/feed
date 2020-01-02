@@ -1,10 +1,10 @@
+#!/usr/bin/env python3
 import requests
 from bs4 import BeautifulSoup as bs
 import re
 from github import Github
 import base64
 import sys
-
 
 target = [
     "epoch-1-documentdownloader-links",
@@ -28,13 +28,13 @@ target = [
     "loader-report"
     ]
 
-token = "your_github_personal_access_token"
+token = "here_your_github_token"
 g = Github(token)
 repo = g.get_repo("netwitness999/feed")
 
 
-def extract(id):
-    code = code_list[id].find("code").text
+def extract(code_block):
+    code = code_block.find("code").text
     domain = [re.sub(r"^https?://([^/]+)(:\d+)?/.+", r"\1", line) for line in code.split("\n") if re.match(r"https?://.+", line)]
     ip = [re.sub(r":.+", "", line) for line in code.split("\n") if isIP(line)]
     domain.extend(ip)
@@ -67,6 +67,20 @@ def get_origin():
     return time, href, requests.get(home + href).text
 
 
+def get_IoC_list(origin):
+    soup = bs(origin, "html.parser")
+    code_list = soup.findAll("div", class_="highlighter-rouge")
+    id_list = [tag.attrs["id"] for tag in soup.findAll(["h3", "h4"])]
+    result = []
+    for i in range(len(id_list)):
+        if id_list[i] in target:
+            result.extend(extract(code_list[i-1]))
+    result = list(set(result))
+    ip = [token for token in result if isIP(token)]
+    domain = [token for token in result if not isIP(token)]
+    return ip, domain
+
+
 if __name__ == "__main__":
 
     time, href, origin = get_origin()
@@ -82,17 +96,8 @@ if __name__ == "__main__":
     except Exception:
         pass
 
-    # get emotet IoC list
-    soup = bs(origin, "html.parser")
-    code_list = soup.findAll("div", class_="highlighter-rouge")
-    id_list = [tag.attrs["id"] for tag in soup.findAll("h4")]
-    result = []
-    for i in range(len(id_list)):
-        if id_list[i] in target:
-            result.extend(extract(i))
-    result = list(set(result))
-    ip = [token for token in result if isIP(token)]
-    domain = [token for token in result if not isIP(token)]
+    # get IOC list
+    ip, domain = get_IoC_list(origin)
 
     # create new list
     repo.create_file(ioc_domain, time, "\n".join(domain))
