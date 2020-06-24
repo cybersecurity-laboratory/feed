@@ -2,7 +2,7 @@ import pytest
 import glob, os, sys
 
 
-def check_columun_count():
+def test_columun_count():
     for path in glob.glob(__file__ + "/*"):
         if path.find(".") == -1 and os.path.isfile(path):
             lines = []
@@ -15,3 +15,7 @@ def check_columun_count():
                     if sample_args == 0:
                         sample_args = meta_args
                     assert sample_args == meta_args
+
+
+if __name__ == "__main__":
+    test_columun_count()
