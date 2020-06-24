@@ -1,5 +1,6 @@
 # custom feed of malicious IPs
 # add on the threat.category = "malicious"
+217.8.117.63, malicious
 50.74.56.147, malicious
 31.170.107.162, malicious
 81.18.134.18, malicious
