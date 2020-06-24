@@ -3,7 +3,7 @@ import glob, os, sys
 
 
 def test_columun_count():
-    for path in glob.glob(__file__ + "/*"):
+    for path in glob.glob("*"):
         if path.find(".") == -1 and os.path.isfile(path):
             lines = []
             with open(path, "r", encoding="utf-8") as f:
