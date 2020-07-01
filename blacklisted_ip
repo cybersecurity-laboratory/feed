@@ -1,3 +1,7 @@
+172.105.212.148, black_listed
+# above this line since 2020-07
+103.140.45.71, black_listed
+139.180.192.19, black_listed
 167.179.101.46, black_listed
 167.179.112.74, black_listed
 103.27.184.27, black_listed
