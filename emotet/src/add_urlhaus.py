@@ -5,11 +5,9 @@ import pandas as pd
 import re
 import time
 from datetime import datetime
-import os
-import urllib.request
 
-starttime = datetime(2020,9,4,0,0,0)#utctime
-endtime =  datetime(2020,9,6,23,59,59)#utctime
+starttime = datetime(2020,9,7,0,0,0)#utctime
+endtime =  datetime(2020,9,8,23,59,59)#utctime
 folder_path= r""#your local 'feed\emotet' folder
 domain_file = ['composit_domain','latest_domain']#domain feed list
 ip_file = ['composit_ip','latest_ip']#ip feed list
