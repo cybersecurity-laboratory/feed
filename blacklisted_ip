@@ -1,3 +1,7 @@
+75.80.124.4, black_listed
+134.209.36.254, black_listed
+# above this line since 2020-09
+# above this line since 2020-08
 172.105.212.148, black_listed
 # above this line since 2020-07
 103.140.45.71, black_listed
