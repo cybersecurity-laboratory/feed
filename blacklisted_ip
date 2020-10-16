@@ -1,3 +1,12 @@
+213.252.246.245, black_listed
+31.41.44.9, black_listed
+45.137.155.74, black_listed
+45.14.224.93, black_listed
+45.84.1.77, black_listed
+81.7.7.159, black_listed
+94.177.123.183, black_listed
+95.217.134.88, black_listed
+# above this line since 2020-10
 75.80.124.4, black_listed
 134.209.36.254, black_listed
 # above this line since 2020-09
