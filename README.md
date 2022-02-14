@@ -14,7 +14,7 @@ Configure > Custom Feeds で設定できます
 https://github.com/netwitness999/feed/issues
 
 2. 上がってる場合は blacklisted_domain か blacklisted_ip を更新してください
-https://github.com/netwitness999/feed/blob/master/blacklisted_domain
+https://github.com/netwitness999/feed/blob/master/blacklisted_domain_extend
 https://github.com/netwitness999/feed/blob/master/blacklisted_ip
 
 3. 更新し終えたら該当のIssuesをクローズしてください
