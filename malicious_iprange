@@ -20,4 +20,13 @@
 203.67.0.0/16,Malicious,suspicious ASN,Digital United Inc
 61.59.0.0/16,Malicious,suspicious ASN,Digital United Inc
 211.74.128.0/17,Malicious,suspicious ASN,Digital United Inc
+#以下2022-06-09追加分--------------------
+41.86.0.0/19,Malicious,suspicious ASN,LIBTELCO-Customer
+117.192.0.0/11,Malicious,suspicious ASN,BBoWIFI
+59.96.0.0/14,Malicious,suspicious ASN,BB-Multiplay
+109.92.0.0/15,Malicious,suspicious ASN,RIPE Network Coordination Centre (RIPE)
+2.58.148.0/22,Malicious,suspicious ASN,RIPE Network Coordination Centre (RIPE)
+123.195.184.0/21,Malicious,suspicious ASN,Asia Pacific Network Information Centre (APNIC)
+118.232.96.0/21,Malicious,suspicious ASN,KBRO-NET
+209.141.32.0/19,Malicious,suspicious ASN,FranTech Solutions (SYNDI-5)
 #
