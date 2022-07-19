@@ -14,6 +14,7 @@ Configure > Custom Feeds で設定できます
 https://github.com/cybersecurity-laboratory/feed/issues
 
 2. 上がってる場合は blacklisted_domain か blacklisted_ip を更新してください
+
 https://github.com/cybersecurity-laboratory/feed/blob/master/blacklisted_domain_extend
 https://github.com/cybersecurity-laboratory/feed/blob/master/blacklisted_ip_extend
 
