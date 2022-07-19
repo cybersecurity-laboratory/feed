@@ -11,7 +11,7 @@ Configure > Custom Feeds で設定できます
 したがって、Githubにアカウントを持っている方にお願いしたいのは以下の作業です
  
 1. netwitness999/feed リポジトリの Issues にブラックリスト登録依頼が上がっていないかチェックしてください
-https://github.com/netwitness999/feed/issues
+https://github.com/cybersecurity-laboratory/feed/issues
 
 2. 上がってる場合は blacklisted_domain か blacklisted_ip を更新してください
 https://github.com/netwitness999/feed/blob/master/blacklisted_domain_extend
