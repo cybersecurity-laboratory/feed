@@ -3,3 +3,6 @@ test10.com, black_listed, None
 test11.tk, black_listed, None
 buz.gooshoppy.top, black_listed, None
 francois-diot-therapeute-addictologue.fr, black_listed, zynq-sfp.html
+hotsale.hbnice.live, black_listed, None
+might.linha.top, black_listed, index.php
+moondog.tokyo, black_listed, beauty/2020/07/22/mica-child-labor-problem
