@@ -6,3 +6,5 @@ francois-diot-therapeute-addictologue.fr, black_listed, zynq-sfp.html
 hotsale.hbnice.live, black_listed, None
 might.linha.top, black_listed, index.php
 moondog.tokyo, black_listed, beauty/2020/07/22/mica-child-labor-problem
+strategiedigitale-ebook.fr, black_listed, xilinx-hdmi-example.html
+192.168.1.1, black_listed, None
