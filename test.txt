@@ -1,2 +1,3 @@
-aaaa, black_listed, Nonetest10.com, black_listed, None
+aaaa, black_listed, None
+test10.com, black_listed, None
 test11.tk, black_listed, None
