@@ -8,3 +8,5 @@ might.linha.top, black_listed, index.php
 moondog.tokyo, black_listed, beauty/2020/07/22/mica-child-labor-problem
 strategiedigitale-ebook.fr, black_listed, xilinx-hdmi-example.html
 192.168.1.1, black_listed, None
+abc.abc, black_listed, None
+# above this line since 2022-11
