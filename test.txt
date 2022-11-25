@@ -62,3 +62,9 @@ new.niklove.life, black_listed, index.php
 nice.ecsuper.xyz, black_listed, index.php
 olt.gooshopy.xyz, black_listed, polygynist/fqAyqhZYIL.html
 onling.xanice.xyz, black_listed, None
+asiaecologia.it, black_listed, uploads/autoriz/iso_14001.pdf
+pl15524852.passtechusa.com, black_listed, f0/05/bb/f005bb567bb7a420ffbee6c54b8fda39.js
+pricefeedroot.top, black_listed, None
+# below this line since 2022-11
+192.168.1.1, black_listed, None
+# below this line since 2022-11
