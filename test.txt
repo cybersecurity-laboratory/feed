@@ -94,3 +94,7 @@ test123, black_listed, None
 test124, black_listed, None
 test125, black_listed, None
 # below this line since 2022-11
+test126, black_listed, None
+test127, black_listed, None
+# below this line since 2022-11
+192.168.1.40, black_listed, None
