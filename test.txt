@@ -54,3 +54,4 @@ www.hiprofitnetworks.com, black_listed, 64fe2ef98cca0c6bcae58bb32005d705/invoke.
 www.topdisplaynetwork.com, black_listed, 2f85b6adb51c7ee336c4d46fa38a6c68/invoke.js
 xhv.brbish.info, black_listed, None
 test111.com, black_listed, None
+test222.org, black_listed, None
