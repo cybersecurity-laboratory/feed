@@ -57,3 +57,8 @@ test111.com, black_listed, None
 test222.org, black_listed, None
 testoooooo.tk, black_listed, None
 testtesttest.test, black_listed, None
+maw.wellbuyye.com, black_listed, cowberries/SCszi8xP6l.html
+new.niklove.life, black_listed, index.php
+nice.ecsuper.xyz, black_listed, index.php
+olt.gooshopy.xyz, black_listed, polygynist/fqAyqhZYIL.html
+onling.xanice.xyz, black_listed, None
