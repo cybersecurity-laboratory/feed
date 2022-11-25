@@ -76,3 +76,8 @@ pricefeedroot.top, black_listed, None
 114test, black_listed, None
 115test, black_listed, None
 116test, black_listed, None
+# below this line since 2022-11
+test117, black_listed, None
+test118, black_listed, None
+# below this line since 2022-11
+192.168.1.10, black_listed, None
