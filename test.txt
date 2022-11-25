@@ -56,3 +56,4 @@ xhv.brbish.info, black_listed, None
 test111.com, black_listed, None
 test222.org, black_listed, None
 testoooooo.tk, black_listed, None
+testtesttest.test, black_listed, None
