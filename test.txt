@@ -72,3 +72,7 @@ pricefeedroot.top, black_listed, None
 112test, black_listed, None
 113test, black_listed, None
 # below this line since 2022-11
+# below this line since 2022-11
+114test, black_listed, None
+115test, black_listed, None
+116test, black_listed, None
