@@ -132,3 +132,6 @@ paolaflo.it, black_listed, %E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%A
 sto520.com, black_listed, None
 vogd.rhagise.top, black_listed, index.php
 www.mecloset.com, black_listed, None
+hts.hamkevn.com, black_listed, None
+vsw.inclubo.info, black_listed, flexural/m8VqdracvA.html
+wmstor.com, black_listed, dsp/ph/icm
