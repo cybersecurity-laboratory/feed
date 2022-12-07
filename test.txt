@@ -212,3 +212,4 @@ ssm.hoshopy.com, black_listed, None
 sweetpotatorai.top, black_listed, index.php
 toplt.xlpmachine.top, black_listed, index.php
 
+ancvilladagri.it, black_listed, None
