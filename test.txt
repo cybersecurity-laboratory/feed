@@ -213,3 +213,4 @@ sweetpotatorai.top, black_listed, index.php
 toplt.xlpmachine.top, black_listed, index.php
 
 ancvilladagri.it, black_listed, None
+ewom21.com, black_listed, None
