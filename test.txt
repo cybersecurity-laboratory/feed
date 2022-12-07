@@ -211,8 +211,4 @@ sjlover.live, black_listed, index.php
 ssm.hoshopy.com, black_listed, None
 sweetpotatorai.top, black_listed, index.php
 toplt.xlpmachine.top, black_listed, index.php
-winsafe.xyz, black_listed, ddos/1zn.html
-www.arahdean.top, black_listed, $$$IWSX_INTERNAL_REQUEST$$$/command/ask_allow
-www.openj-gate.com, black_listed, site/citeseerx.ist.psu.edu
-bestrealprizes.life, black_listed, None
-www.specopy.ru, black_listed, None
+
