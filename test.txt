@@ -214,3 +214,6 @@ toplt.xlpmachine.top, black_listed, index.php
 
 ancvilladagri.it, black_listed, None
 ewom21.com, black_listed, None
+freemial.life, black_listed, None
+gzxjds.qspotqgj.top, black_listed, index.php
+jgf.wellbuyye.info, black_listed, None
