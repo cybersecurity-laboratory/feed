@@ -392,3 +392,12 @@ www.100shokuya.com, black_listed, None
 www.effectivedisplayformats.com, black_listed, 8bca3237b5a6ad6014b06a4ef5175658/invoke.js
 www.strada-vision.com, black_listed, None
 duntooldean.live, black_listed, test
+basalt.today, black_listed, None
+bestodset.com, black_listed, index.php
+easy.massfusion.shop, black_listed, None
+gulfsupplements.com, black_listed, None
+maglidee.it, black_listed, convert-decimal-to-binary-in-c.html
+onling.barsella.live, black_listed, None
+pronirtiouraper.com, black_listed, None
+theupgradedata.com, black_listed, Z7m9ZhZAf1G39a8Fd5i_JWjyhbEaYmsfKPn3cv3xUZM
+www.maicrosoft.com, black_listed, None
