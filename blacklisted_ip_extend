@@ -110,3 +110,6 @@
 # add metadata as ir.general
 # below this line since 2023-3
 178.128.125.50, black_listed, None
+138.197.14.67, black_listed, None
+198.51.100.191, black_listed, None
+198.51.100.192, black_listed, None
