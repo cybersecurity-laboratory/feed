@@ -116,3 +116,6 @@
 # below this line since 2023-4
 144.202.9.245, black_listed, None
 171.22.30.220, black_listed, None
+
+# below this line since 2024-7
+94.156.79.8, black_listed, sc-top.js
