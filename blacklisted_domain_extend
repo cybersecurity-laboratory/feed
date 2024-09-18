@@ -12910,3 +12910,6 @@ manku.pl, black_listed, None
 rezydencjadolinka.pl, black_listed, None
 www.sahayothin.com, black_listed, index.php/2012-10-22-04-53-40
 www.sahayothin.com, black_listed, index.php/price-rate
+donationobliged.com, black_listed, pixel/sbe
+donationobliged.com, black_listed, sbar.json
+malletdetour.com, black_listed, None
