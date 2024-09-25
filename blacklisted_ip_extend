@@ -121,3 +121,6 @@
 94.156.79.8, black_listed, sc-top.js
 # below this line since 2024-8
 103.187.26.176, black_listed, None
+# below this line since 2024-9
+208.85.18.4, black_listed, None
+45.32.116.146, black_listed, None
