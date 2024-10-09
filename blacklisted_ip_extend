@@ -124,3 +124,5 @@
 # below this line since 2024-9
 208.85.18.4, black_listed, None
 45.32.116.146, black_listed, None
+# below this line since 2024-10
+139.84.131.62, black_listed, None
