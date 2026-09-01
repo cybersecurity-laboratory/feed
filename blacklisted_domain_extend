@@ -19909,3 +19909,6 @@ wizardmagazine.net, black_listed, None
 www.jazzy.com.bd, black_listed, None
 www.juntohru.com, black_listed, None
 baohotoandien.com, black_listed, None
+
+# below this line since 2026-9
+test.tcom, black_listed, None
